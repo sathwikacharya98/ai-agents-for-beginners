@@ -1,7 +1,11 @@
 {
+  "name": "Python 3.13.5 Dev Container",
   "image": "mcr.microsoft.com/devcontainers/python:3",
   "features": {
-    "azure-cli": "latest"
+    "azure-cli": "latest",
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.13.5"
+    }
   },
   "hostRequirements": {
     "cpus": 4
